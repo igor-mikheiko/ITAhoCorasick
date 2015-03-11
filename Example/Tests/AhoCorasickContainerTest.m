@@ -8,22 +8,22 @@
 
 @import Foundation;
 #import <XCTest/XCTest.h>
-#import "ITAhoCorasicContainer.h"
+#import "ITAhoCorasickContainer.h"
 
 
-@interface AhoCorasicContainerTest : XCTestCase
+@interface AhoCorasickContainerTest : XCTestCase
 
-@property (strong, nonatomic) ITAhoCorasicContainer *container;
+@property (strong, nonatomic) ITAhoCorasickContainer *container;
 
 @end
 
-@implementation AhoCorasicContainerTest
+@implementation AhoCorasickContainerTest
 
 - (void)setUp
 {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
-    self.container = [ITAhoCorasicContainer new];
+    self.container = [ITAhoCorasickContainer new];
 }
 
 

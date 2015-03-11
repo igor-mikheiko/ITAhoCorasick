@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01FD1A9895E5A63F040E8099 /* Pods-ITAhoCorasick-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2849AA687F066B2CCB23837 /* Pods-ITAhoCorasick-Demo-dummy.m */; };
+		154ADD942813797C174C5F94 /* NSMutableDictionary+ITExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5340A5A8534356D537E9B652 /* NSMutableDictionary+ITExtension.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		173D5D878B836B840AC7AC14 /* NSMutableDictionary+ITExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D93CC1488AC1891D745A70 /* NSMutableDictionary+ITExtension.h */; };
+		6218271FE341D64204E5ECCF /* Pods-ITAhoCorasick-Demo-ITAhoCorasick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D41B4A43C2B1126D12ECA4 /* Pods-ITAhoCorasick-Demo-ITAhoCorasick-dummy.m */; };
+		78A833714FC7571DEAC6C906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4D0F94DFF59CC0CDDB92B1 /* Foundation.framework */; };
+		CC9D4B2CF6DC01D413E3F1CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4D0F94DFF59CC0CDDB92B1 /* Foundation.framework */; };
+		D0D4BF6236FB117D83265730 /* ITAhoCorasickContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 429499C098BD97F3C80640BA /* ITAhoCorasickContainer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		FAD984F562BEF96209E85C1C /* ITAhoCorasickContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9BD39B8091744FBB631FD1 /* ITAhoCorasickContainer.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45478020173B5499E1FDF25A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F03B6FFDE5C17C3DE17AE31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 441200A6D893D37DD7FD7638;
+			remoteInfo = "Pods-ITAhoCorasick-Demo-ITAhoCorasick";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0450C5AE2DE327A6AF84ECED /* Pods-ITAhoCorasick-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ITAhoCorasick-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D9BD39B8091744FBB631FD1 /* ITAhoCorasickContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ITAhoCorasickContainer.h; path = Pod/Classes/ITAhoCorasickContainer.h; sourceTree = "<group>"; };
+		2837361A0E40176D1A413F24 /* Pods-ITAhoCorasick-Demo-ITAhoCorasick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ITAhoCorasick-Demo-ITAhoCorasick.xcconfig"; sourceTree = "<group>"; };
+		4212E85F1ADD83AA01122996 /* Pods-ITAhoCorasick-Demo-ITAhoCorasick-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ITAhoCorasick-Demo-ITAhoCorasick-Private.xcconfig"; sourceTree = "<group>"; };
+		429499C098BD97F3C80640BA /* ITAhoCorasickContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ITAhoCorasickContainer.m; path = Pod/Classes/ITAhoCorasickContainer.m; sourceTree = "<group>"; };
+		4EA1321870FDAA409942E8D4 /* Pods-ITAhoCorasick-Demo-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ITAhoCorasick-Demo-environment.h"; sourceTree = "<group>"; };
+		512F2BFC4713CB7D39A7DFC9 /* Pods-ITAhoCorasick-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ITAhoCorasick-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		5340A5A8534356D537E9B652 /* NSMutableDictionary+ITExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+ITExtension.m"; path = "Pod/Classes/NSMutableDictionary+ITExtension.m"; sourceTree = "<group>"; };
+		5DAAC67ADC2F2EE4B15967AE /* Pods-ITAhoCorasick-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ITAhoCorasick-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		67BA7C067984C77FA4B7CF50 /* libPods-ITAhoCorasick-Demo-ITAhoCorasick.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ITAhoCorasick-Demo-ITAhoCorasick.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4D0F94DFF59CC0CDDB92B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8DBA80DC8B9B978706325DFA /* Pods-ITAhoCorasick-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ITAhoCorasick-Demo-resources.sh"; sourceTree = "<group>"; };
+		A0D41B4A43C2B1126D12ECA4 /* Pods-ITAhoCorasick-Demo-ITAhoCorasick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ITAhoCorasick-Demo-ITAhoCorasick-dummy.m"; sourceTree = "<group>"; };
+		A409B282DD054E3F0889E8EC /* Pods-ITAhoCorasick-Demo-ITAhoCorasick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ITAhoCorasick-Demo-ITAhoCorasick-prefix.pch"; sourceTree = "<group>"; };
+		C3D93CC1488AC1891D745A70 /* NSMutableDictionary+ITExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+ITExtension.h"; path = "Pod/Classes/NSMutableDictionary+ITExtension.h"; sourceTree = "<group>"; };
+		D1DF96C582A9B9C113D164A6 /* libPods-ITAhoCorasick-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ITAhoCorasick-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB71EC4A17B71B86461269B9 /* Pods-ITAhoCorasick-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ITAhoCorasick-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		F2849AA687F066B2CCB23837 /* Pods-ITAhoCorasick-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ITAhoCorasick-Demo-dummy.m"; sourceTree = "<group>"; };
+		FCBEE6D78FE2F5548C4EBF4D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		983E95ABBDDDF61506C3C27E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A833714FC7571DEAC6C906 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A202590E5177B8FCBDB649F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9D4B2CF6DC01D413E3F1CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19CF7F140B54B5B707D6FF52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E0501CC15B2ADBE7DB59D1B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		367EDBADE214BB937659D6D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2837361A0E40176D1A413F24 /* Pods-ITAhoCorasick-Demo-ITAhoCorasick.xcconfig */,
+				4212E85F1ADD83AA01122996 /* Pods-ITAhoCorasick-Demo-ITAhoCorasick-Private.xcconfig */,
+				A0D41B4A43C2B1126D12ECA4 /* Pods-ITAhoCorasick-Demo-ITAhoCorasick-dummy.m */,
+				A409B282DD054E3F0889E8EC /* Pods-ITAhoCorasick-Demo-ITAhoCorasick-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-ITAhoCorasick-Demo-ITAhoCorasick";
+			sourceTree = "<group>";
+		};
+		3C4FEFFAAC7374516B7DE64E /* Pods-ITAhoCorasick-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0450C5AE2DE327A6AF84ECED /* Pods-ITAhoCorasick-Demo-acknowledgements.markdown */,
+				5DAAC67ADC2F2EE4B15967AE /* Pods-ITAhoCorasick-Demo-acknowledgements.plist */,
+				F2849AA687F066B2CCB23837 /* Pods-ITAhoCorasick-Demo-dummy.m */,
+				4EA1321870FDAA409942E8D4 /* Pods-ITAhoCorasick-Demo-environment.h */,
+				8DBA80DC8B9B978706325DFA /* Pods-ITAhoCorasick-Demo-resources.sh */,
+				512F2BFC4713CB7D39A7DFC9 /* Pods-ITAhoCorasick-Demo.debug.xcconfig */,
+				DB71EC4A17B71B86461269B9 /* Pods-ITAhoCorasick-Demo.release.xcconfig */,
+			);
+			name = "Pods-ITAhoCorasick-Demo";
+			path = "Target Support Files/Pods-ITAhoCorasick-Demo";
+			sourceTree = "<group>";
+		};
+		5DFD6EEFF814CB13DE880F86 /* ITAhoCorasick */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BD39B8091744FBB631FD1 /* ITAhoCorasickContainer.h */,
+				429499C098BD97F3C80640BA /* ITAhoCorasickContainer.m */,
+				C3D93CC1488AC1891D745A70 /* NSMutableDictionary+ITExtension.h */,
+				5340A5A8534356D537E9B652 /* NSMutableDictionary+ITExtension.m */,
+				367EDBADE214BB937659D6D5 /* Support Files */,
+			);
+			name = ITAhoCorasick;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6E0501CC15B2ADBE7DB59D1B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E4D0F94DFF59CC0CDDB92B1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9A74512B0E02B1656D0DA31A = {
+			isa = PBXGroup;
+			children = (
+				FCBEE6D78FE2F5548C4EBF4D /* Podfile */,
+				A81EEAA9DEB2F391DAAA30F2 /* Development Pods */,
+				19CF7F140B54B5B707D6FF52 /* Frameworks */,
+				A307CDC1E36D36E8C3302978 /* Products */,
+				FB45C994E9A66F8F76B9F724 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A307CDC1E36D36E8C3302978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1DF96C582A9B9C113D164A6 /* libPods-ITAhoCorasick-Demo.a */,
+				67BA7C067984C77FA4B7CF50 /* libPods-ITAhoCorasick-Demo-ITAhoCorasick.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A81EEAA9DEB2F391DAAA30F2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DFD6EEFF814CB13DE880F86 /* ITAhoCorasick */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FB45C994E9A66F8F76B9F724 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C4FEFFAAC7374516B7DE64E /* Pods-ITAhoCorasick-Demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		35C04B43421D74654E3B04FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD984F562BEF96209E85C1C /* ITAhoCorasickContainer.h in Headers */,
+				173D5D878B836B840AC7AC14 /* NSMutableDictionary+ITExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		441200A6D893D37DD7FD7638 /* Pods-ITAhoCorasick-Demo-ITAhoCorasick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4447961BDB7A93EDBA6B25FC /* Build configuration list for PBXNativeTarget "Pods-ITAhoCorasick-Demo-ITAhoCorasick" */;
+			buildPhases = (
+				38D6F1D027027A966BC7D8B7 /* Sources */,
+				A202590E5177B8FCBDB649F7 /* Frameworks */,
+				35C04B43421D74654E3B04FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ITAhoCorasick-Demo-ITAhoCorasick";
+			productName = "Pods-ITAhoCorasick-Demo-ITAhoCorasick";
+			productReference = 67BA7C067984C77FA4B7CF50 /* libPods-ITAhoCorasick-Demo-ITAhoCorasick.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F17BB5D65B22C5B4BCE2E2BA /* Pods-ITAhoCorasick-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344A56DF94A571A711187282 /* Build configuration list for PBXNativeTarget "Pods-ITAhoCorasick-Demo" */;
+			buildPhases = (
+				1D7ADE0E531DE7ED01ADE05E /* Sources */,
+				983E95ABBDDDF61506C3C27E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				312CDCE7D72AF52871CFB911 /* PBXTargetDependency */,
+			);
+			name = "Pods-ITAhoCorasick-Demo";
+			productName = "Pods-ITAhoCorasick-Demo";
+			productReference = D1DF96C582A9B9C113D164A6 /* libPods-ITAhoCorasick-Demo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F03B6FFDE5C17C3DE17AE31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = BB666C54B680D36CA2040271 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9A74512B0E02B1656D0DA31A;
+			productRefGroup = A307CDC1E36D36E8C3302978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F17BB5D65B22C5B4BCE2E2BA /* Pods-ITAhoCorasick-Demo */,
+				441200A6D893D37DD7FD7638 /* Pods-ITAhoCorasick-Demo-ITAhoCorasick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D7ADE0E531DE7ED01ADE05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FD1A9895E5A63F040E8099 /* Pods-ITAhoCorasick-Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D6F1D027027A966BC7D8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D4BF6236FB117D83265730 /* ITAhoCorasickContainer.m in Sources */,
+				154ADD942813797C174C5F94 /* NSMutableDictionary+ITExtension.m in Sources */,
+				6218271FE341D64204E5ECCF /* Pods-ITAhoCorasick-Demo-ITAhoCorasick-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		312CDCE7D72AF52871CFB911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 441200A6D893D37DD7FD7638 /* Pods-ITAhoCorasick-Demo-ITAhoCorasick */;
+			targetProxy = 45478020173B5499E1FDF25A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01630156B7DB512EAD23214A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		60D30E1C33149AF4B23DC90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4212E85F1ADD83AA01122996 /* Pods-ITAhoCorasick-Demo-ITAhoCorasick-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ITAhoCorasick-Demo-ITAhoCorasick/Pods-ITAhoCorasick-Demo-ITAhoCorasick-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0C45EEDB628029E6F0292F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8214B27CA4184DC4654591B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4212E85F1ADD83AA01122996 /* Pods-ITAhoCorasick-Demo-ITAhoCorasick-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ITAhoCorasick-Demo-ITAhoCorasick/Pods-ITAhoCorasick-Demo-ITAhoCorasick-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EE82F2AC23A74ADAE5A00DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 512F2BFC4713CB7D39A7DFC9 /* Pods-ITAhoCorasick-Demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F1B9537979EFBFAD9C047723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB71EC4A17B71B86461269B9 /* Pods-ITAhoCorasick-Demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		344A56DF94A571A711187282 /* Build configuration list for PBXNativeTarget "Pods-ITAhoCorasick-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE82F2AC23A74ADAE5A00DE3 /* Debug */,
+				F1B9537979EFBFAD9C047723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4447961BDB7A93EDBA6B25FC /* Build configuration list for PBXNativeTarget "Pods-ITAhoCorasick-Demo-ITAhoCorasick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8214B27CA4184DC4654591B /* Debug */,
+				60D30E1C33149AF4B23DC90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB666C54B680D36CA2040271 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01630156B7DB512EAD23214A /* Debug */,
+				B0C45EEDB628029E6F0292F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F03B6FFDE5C17C3DE17AE31 /* Project object */;
+}

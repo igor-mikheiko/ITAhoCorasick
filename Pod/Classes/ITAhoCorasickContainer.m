@@ -3,7 +3,7 @@
 //  Copyright (c) 2015 *instinctools. All rights reserved.
 //
 
-#import "ITAhoCorasicContainer.h"
+#import "ITAhoCorasickContainer.h"
 #import "NSMutableDictionary+ITExtension.h"
 
 @interface ITBohrVertex : NSObject {
@@ -39,13 +39,13 @@
 
 @end
 
-@interface ITAhoCorasicContainer ()
+@interface ITAhoCorasickContainer ()
 
 @property (strong, nonatomic) ITBohr *bohr;
 
 @end
 
-@implementation ITAhoCorasicContainer
+@implementation ITAhoCorasickContainer
 
 - (instancetype)init
 {

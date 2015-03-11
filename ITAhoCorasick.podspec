@@ -8,7 +8,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "ITAhoCorasik"
+  s.name             = "ITAhoCorasick"
   s.version          = "0.1.0"
   s.summary          = "Implementation of algorithm of Aho-Corasick (patterns searching)"
   s.homepage         = "https://github.com/alesanro/ITAhoCorasick"
@@ -20,8 +20,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'Foundation'
 end

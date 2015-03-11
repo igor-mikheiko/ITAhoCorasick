@@ -5,7 +5,7 @@
 
 @import Foundation;
 
-@interface ITAhoCorasicContainer : NSObject
+@interface ITAhoCorasickContainer : NSObject
 
 - (void)addStringPattern:(NSString *)pattern;
 - (void)addStringPatterns:(NSArray *)patterns;
