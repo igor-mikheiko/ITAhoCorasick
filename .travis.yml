@@ -9,9 +9,9 @@ language: objective-c
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 install:
-- gem install xcpretty --no-rdoc --no-ri --no-document --quiet
-- export LC_CTYPE=en_US.UTF-8
+# - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+# - export LC_CTYPE=en_US.UTF-8
 
 script:
-- xcodebuild test -workspace 'Example/ITAhoCorasick-Demo.xcworkspace' -scheme 'ITAhoCorasick-Example' -configuration Debug -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c --report junit
+- xctool test -workspace 'Example/ITAhoCorasick-Demo.xcworkspace' -scheme 'ITAhoCorasick-Example' -configuration Debug -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 # - pod lib lint --quick
