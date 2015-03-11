@@ -125,7 +125,7 @@
     int num = 0;
     ITBohrVertex *v;
     for (int i = 0; i < [string length]; i++){
-        id ch = @([string characterAtIndex:i] - 'a');
+        id ch = @([string characterAtIndex:i]);
         v = bohr[num];
         if ([[v->next_vrtx it_valueForKey:ch] intValue] == -1){
             [bohr addObject:[ITBohrVertex bohrVertexWithPat:num char:[ch intValue]]];
@@ -143,7 +143,7 @@
 {
     int num = 0;
     for (uint i = 0; i < pattern.length; i++){
-        id ch = @([pattern characterAtIndex:i] - 'a');
+        id ch = @([pattern characterAtIndex:i]);
         ITBohrVertex *v = bohr[num];
         if ([[v->next_vrtx it_valueForKey:ch] intValue] == -1) {
             return NO;
@@ -222,7 +222,7 @@
     NSMutableDictionary *result = [NSMutableDictionary dictionary];
     int u = 0;
     for(int i = 0; i < [source length]; i++){
-        u = [self autoMoveWithPos:u char:([source characterAtIndex:i] - 'a')];
+        u = [self autoMoveWithPos:u char:([source characterAtIndex:i])];
         [result it_mergeWithDictionary:[self checkVertexWithPos:u idx:(i + 1)]];
     }
     

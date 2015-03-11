@@ -122,4 +122,26 @@
     XCTAssertGreaterThan([result2[pattern2] count], 0);
 }
 
+- (void)testSearchNumbers
+{
+    NSString *pattern = @"1";
+    [self.container addStringPattern:pattern];
+    
+    NSDictionary *result = [self.container findAllMatches:@"12345"];
+    
+    XCTAssertNotNil(result);
+    XCTAssertEqual([result count], 1);
+}
+
+- (void)testSearchStringWithWhitespaces
+{
+    NSString *pattern = @"tutto zar";
+    [self.container addStringPattern:pattern];
+    
+    NSDictionary *result = [self.container findAllMatches:@"rastutto zarya notutto"];
+    
+    XCTAssertNotNil(result);
+    XCTAssertEqual([result count], 1);
+}
+
 @end
