@@ -7,9 +7,27 @@
 
 @interface ITAhoCorasickContainer : NSObject
 
+/**
+ *  Adding pattern string for searching
+ *
+ *  @param pattern string
+ */
 - (void)addStringPattern:(NSString *)pattern;
+
+/**
+ *  Adding list of patterns for searching
+ *
+ *  @param patterns collection of strings
+ */
 - (void)addStringPatterns:(NSArray *)patterns;
 
+/**
+ *  Perform searching of patterns in source string
+ *
+ *  @param source <#source description#>
+ *
+ *  @return <#return value description#>
+ */
 - (NSDictionary *)findAllMatches:(NSString *)source;
 
 @end
