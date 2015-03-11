@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C2AC0A1AB01916009E0C0C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 04C2AC051AB01916009E0C0C /* .gitkeep */; };
+		04C2AC0B1AB01916009E0C0C /* ITAhoCorasicContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2AC071AB01916009E0C0C /* ITAhoCorasicContainer.m */; };
+		04C2AC0C1AB01916009E0C0C /* NSMutableDictionary+ITExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2AC091AB01916009E0C0C /* NSMutableDictionary+ITExtension.m */; };
+		04C2AC0E1AB01A81009E0C0C /* AhoCorasicContainerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2AC0D1AB01A81009E0C0C /* AhoCorasicContainerTest.m */; };
+		20D11C866C432F6C42F3E02A /* libPods-ITAhoCorasik.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F419BF9A7F7EBEEEC88C3F1 /* libPods-ITAhoCorasik.a */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -15,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04C2AC051AB01916009E0C0C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		04C2AC061AB01916009E0C0C /* ITAhoCorasicContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITAhoCorasicContainer.h; sourceTree = "<group>"; };
+		04C2AC071AB01916009E0C0C /* ITAhoCorasicContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITAhoCorasicContainer.m; sourceTree = "<group>"; };
+		04C2AC081AB01916009E0C0C /* NSMutableDictionary+ITExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ITExtension.h"; sourceTree = "<group>"; };
+		04C2AC091AB01916009E0C0C /* NSMutableDictionary+ITExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ITExtension.m"; sourceTree = "<group>"; };
+		04C2AC0D1AB01A81009E0C0C /* AhoCorasicContainerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AhoCorasicContainerTest.m; sourceTree = "<group>"; };
+		0A64FE4C43D49140BD693173 /* Pods-ITAhoCorasik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITAhoCorasik.release.xcconfig"; path = "Pods/Target Support Files/Pods-ITAhoCorasik/Pods-ITAhoCorasik.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ITAhoCorasik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITAhoCorasik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -25,9 +37,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		9F419BF9A7F7EBEEEC88C3F1 /* libPods-ITAhoCorasik.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ITAhoCorasik.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD77B5E2ED9C98BCA6EEBAE0 /* Pods-ITAhoCorasik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITAhoCorasik.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ITAhoCorasik/Pods-ITAhoCorasik.debug.xcconfig"; sourceTree = "<group>"; };
 		C154D43D6F6F6B2C01C7287C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CB4DA9CD54B4289D20BE65D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CCC631DDFA3F575ACDEAE7C2 /* ITAhoCorasik.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = ITAhoCorasik.podspec; path = ../ITAhoCorasik.podspec; sourceTree = "<group>"; };
+		CB4DA9CD54B4289D20BE65D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CCC631DDFA3F575ACDEAE7C2 /* ITAhoCorasik.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ITAhoCorasik.podspec; path = ../ITAhoCorasik.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,19 +52,44 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				20D11C866C432F6C42F3E02A /* libPods-ITAhoCorasik.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C2AC041AB01916009E0C0C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04C2AC051AB01916009E0C0C /* .gitkeep */,
+				04C2AC061AB01916009E0C0C /* ITAhoCorasicContainer.h */,
+				04C2AC071AB01916009E0C0C /* ITAhoCorasicContainer.m */,
+				04C2AC081AB01916009E0C0C /* NSMutableDictionary+ITExtension.h */,
+				04C2AC091AB01916009E0C0C /* NSMutableDictionary+ITExtension.m */,
+			);
+			name = Classes;
+			path = ../Pod/Classes;
+			sourceTree = "<group>";
+		};
+		59B1EDDE87E136847A8C9E03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD77B5E2ED9C98BCA6EEBAE0 /* Pods-ITAhoCorasik.debug.xcconfig */,
+				0A64FE4C43D49140BD693173 /* Pods-ITAhoCorasik.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				04C2AC041AB01916009E0C0C /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
+				59B1EDDE87E136847A8C9E03 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +109,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
+				9F419BF9A7F7EBEEEC88C3F1 /* libPods-ITAhoCorasik.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -77,6 +117,7 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				04C2AC0D1AB01A81009E0C0C /* AhoCorasicContainerTest.m */,
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
@@ -110,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ITAhoCorasik" */;
 			buildPhases = (
+				0F90A24FA491C9CAC90E36E9 /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				506D76F4D4399722912B1FA8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ITAhoCorasik" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -162,17 +205,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				04C2AC0A1AB01916009E0C0C /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F90A24FA491C9CAC90E36E9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		506D76F4D4399722912B1FA8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ITAhoCorasik/Pods-ITAhoCorasik-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6003F5AA195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C2AC0C1AB01916009E0C0C /* NSMutableDictionary+ITExtension.m in Sources */,
+				04C2AC0B1AB01916009E0C0C /* ITAhoCorasicContainer.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				04C2AC0E1AB01A81009E0C0C /* AhoCorasicContainerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +344,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD77B5E2ED9C98BCA6EEBAE0 /* Pods-ITAhoCorasik.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -285,6 +366,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A64FE4C43D49140BD693173 /* Pods-ITAhoCorasik.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -303,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "ITAhoCorasik" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,

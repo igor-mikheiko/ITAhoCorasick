@@ -6,4 +6,3 @@
 //  Copyright (c) 2014 Alex Rudyak. All rights reserved.
 //
 
-${TEST_EXAMPLE}
