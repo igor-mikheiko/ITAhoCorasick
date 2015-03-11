@@ -209,8 +209,6 @@
         if (v->flag) {
             int foundPosition = i - (int)[patterns[v->pat_num] length] + 1;
             NSString *foundPattern = patterns[v->pat_num];
-            NSLog(@"%d - %@", foundPosition, foundPattern);
-            
             NSValue *matchRange = [NSValue valueWithRange:NSMakeRange(foundPosition, [foundPattern length])];
             [result it_appendValue:matchRange forKey:foundPattern];
         }

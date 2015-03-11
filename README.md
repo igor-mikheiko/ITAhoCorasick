@@ -1,6 +1,6 @@
 # ITAhoCorasik
 
-[![CI Status](http://img.shields.io/travis/alesanro/ITAhoCorasick.svg?style=flat)](https://travis-ci.org/alesanro/ITAhoCorasick)
+[![CI Status](http://img.shields.io/travis/instinctools/ITAhoCorasick.svg?style=flat)](https://travis-ci.org/instinctools/ITAhoCorasick)
 
 ## Usage
 
