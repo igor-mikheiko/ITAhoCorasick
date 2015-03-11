@@ -1,0 +1,14 @@
+PODS:
+  - ITAhoCorasick (0.1.0)
+
+DEPENDENCIES:
+  - ITAhoCorasick (from `../`)
+
+EXTERNAL SOURCES:
+  ITAhoCorasick:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ITAhoCorasick: d7a6d33ff2deb650f239a7669b4f045c4cb4d78c
+
+COCOAPODS: 0.34.4
