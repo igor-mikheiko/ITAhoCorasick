@@ -144,4 +144,20 @@
     XCTAssertEqual([result count], 1);
 }
 
+- (void)testCheckLocationOfMatchedEntries
+{
+    NSString *pattern = @"ela";
+    [self.container addStringPattern:pattern];
+    
+    NSString *sourceString = @"masha ela kashy";
+    NSDictionary *result = [self.container findAllMatches:sourceString];
+    
+    NSRange substringRange = [sourceString rangeOfString:pattern];
+    
+    XCTAssertNotNil(result);
+    NSValue *rangeValue = [result[pattern] firstObject];
+    XCTAssertNotNil(rangeValue);
+    XCTAssertTrue(NSEqualRanges([rangeValue rangeValue], substringRange));
+}
+
 @end

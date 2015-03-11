@@ -207,7 +207,7 @@
     for(int u = pos; u != 0; u = [self sufficientFLinkWithPos:u]) {
         v = bohr[u];
         if (v->flag) {
-            int foundPosition = i - (int)[patterns[v->pat_num] length] + 1;
+            int foundPosition = i - (int)[patterns[v->pat_num] length];
             NSString *foundPattern = patterns[v->pat_num];
             NSValue *matchRange = [NSValue valueWithRange:NSMakeRange(foundPosition, [foundPattern length])];
             [result it_appendValue:matchRange forKey:foundPattern];
