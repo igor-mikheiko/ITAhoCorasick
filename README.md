@@ -1,9 +1,6 @@
 # ITAhoCorasik
 
 [![CI Status](http://img.shields.io/travis/alesanro/ITAhoCorasik.svg?style=flat)](https://travis-ci.org/alesanro/ITAhoCorasik)
-[![Version](https://img.shields.io/cocoapods/v/ITAhoCorasik.svg?style=flat)](http://cocoadocs.org/docsets/ITAhoCorasik)
-[![License](https://img.shields.io/cocoapods/l/ITAhoCorasik.svg?style=flat)](http://cocoadocs.org/docsets/ITAhoCorasik)
-[![Platform](https://img.shields.io/cocoapods/p/ITAhoCorasik.svg?style=flat)](http://cocoadocs.org/docsets/ITAhoCorasik)
 
 ## Usage
 
